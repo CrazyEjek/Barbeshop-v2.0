@@ -1,0 +1,41 @@
+.header {
+display: flex;
+flex-direction: column;
+background: #292929 url("/img/bg.jpg") no-repeat 50% 0;
+background-size: 1200px auto;
+background-size: cover;
+}
+
+    @media (min-width: 770px) {
+        .header__logo-image {
+            margin-top: 160px;
+            height: 30px;
+            text-align: center;
+            margin-left: 225px;
+         }
+}
+
+    @media (min-width: 1200px) {
+        .header__logo-image {
+            height: 30px;
+            text-align: center;
+            margin-left: 440px;
+         }
+}
+
+
+
+
+
+.navigation {
+
+    &__list {
+    }
+}
+.nav {
+
+    &__item {
+    }
+}
+.login {
+}
